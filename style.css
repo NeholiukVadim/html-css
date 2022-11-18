@@ -1,0 +1,90 @@
+.article-container{
+   background-color: rgb(224, 222, 222);
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   margin: auto;
+   padding: 15px;
+   border-radius: 5px;
+}
+
+.time-new-roman-font{
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.google-font{
+   font-family: 'Merriweather';
+}
+
+.person-name-block{
+   height: 70px;
+}
+
+.person-name{
+   font-size: 42px;
+}
+
+.person-birthdate-block{
+   height: 35px;
+}
+
+.person-birthdate{
+   font-size: 18px;
+}
+
+.text-bold{
+   font-weight: bold;
+}
+
+.text-center{
+   text-align: center;
+}
+
+.catchphrase{
+   font-size: 14px;
+}
+
+.general-information-block{
+   padding-left: 4px;
+}
+
+.general-information{
+   font-size: 12px;
+}
+
+.block-border{
+   border: 1px solid;
+   border-color: rgb(206, 203, 203);
+   border-radius: 3px;
+}
+
+.person-photo-block{
+   margin-top: 30px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.person-photo{
+   width: 30%;
+   margin: auto;
+   display: block;
+   border-radius: 50%;
+}
+
+.companies-headline-block{
+   height: 40px;
+}
+
+.companies-headline{
+   font-size: 14px;
+}
+
+.companies-list{
+   font-size: 12px;
+   margin-top: 0px;
+   margin-bottom: 2px;
+}
+
+.source-link{
+   font-size: 12px;
+}
