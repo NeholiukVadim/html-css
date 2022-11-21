@@ -19,7 +19,7 @@
                <div class="first-name">
                   <p>First name *</p>
                   <input type="text" name="first-name" value="" placeholder="enter your first name"
-                     class="text first-name" />
+                     class="text first-name" required />
                </div>
                <div class="last-name">
                   <p>Last name</p>
@@ -28,31 +28,39 @@
                </div>
                <div class="email">
                   <p>Email *</p>
-                  <input type="text" name="email" value="" placeholder="enter email" class="text email" />
+                  <input type="text" name="email" value="" placeholder="enter email" class="text email" required />
                </div>
                <div class="password">
                   <p>Password *</p>
                   <input type="password" name="password" value="" placeholder="enter your password"
-                     class="password-input" />
+                     class="password-input" required />
                </div>
                <div class="password-confirm">
                   <p>Confirm Password *</p>
                   <input type="password" name="password-confirm" value="" placeholder="enter your password again"
-                     class="password-input" />
+                     class="password-input" required />
                </div>
                <div class="gender">
                   <p>Gender</p>
-                  <input type="radio" id="gender-male" name="gender-choose" value="male" class="radio male" /><a> male
-                  </a>
-                  <input type="radio" id="gender-female" name="gender-choose" value="female" class="radio female" /><a>
-                     female </a>
+                  <input type="radio" id="gender-male" name="gender-choose" value="male" class="radio male" /><label
+                     for="gender-male">
+                     male </label>
+                  <input type="radio" id="gender-female" name="gender-choose" value="female"
+                     class="radio female" /><label for="gender-female">
+                     female </label>
                </div>
                <div class="hobbies">
                   <p>Hobbies</p>
-                  <input type="checkbox" name="hobby-sports" value="sports" class="checkbox sports" /><a>sports</a>
-                  <input type="checkbox" name="hobby-music" value="music" class="checkbox music" /><a>music</a>
-                  <input type="checkbox" name="hobby-travel" value="travel" class="checkbox travel" /><a>travel</a>
-                  <input type="checkbox" name="hobby-movies" value="movies" class="checkbox movies" /><a>movies</a>
+                  <div class="checkbox-conteiner">
+                     <input type="checkbox" id="sports" name="hobby-sports" value="sports"
+                        class="checkbox sports" /><label for="sports">sports</label>
+                     <input type="checkbox" id="music" name="hobby-music" value="music" class="checkbox music" /><label
+                        for="music">music</label>
+                     <input type="checkbox" id="travel" name="hobby-travel" value="travel"
+                        class="checkbox travel" /><label for="travel">travel</label>
+                     <input type="checkbox" id="movies" name="hobby-movies" value="movies"
+                        class="checkbox movies" /><label for="movies">movies</label>
+                  </div>
                </div>
                <div class="source-of-income">
                   <p>Source of Income</p>
