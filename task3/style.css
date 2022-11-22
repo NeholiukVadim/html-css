@@ -13,9 +13,9 @@ body {
 
 .registration-form {
    background-color: rgb(233, 233, 233);
-   height: 550px;
    width: 500px;
    border-radius: 8px;
+   margin: 0;
 }
 
 .form-article {
@@ -44,10 +44,15 @@ body {
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
 }
 
+.forms {
+   margin: 0;
+}
+
 .button-space {
-   height: 50px;
    background-color: rgb(180, 180, 180);
-   border-radius: 0px 0px 8px 8px;
+   border-radius: 0 0 8px 8px;
+   width: 100%;
+   height: 50px;
    display: grid;
    justify-content: right;
    align-items: center;
@@ -83,6 +88,12 @@ body {
 
 .hobbies {
    grid-area: hobbies;
+}
+
+.checkbox-conteiner {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 }
 
 .source-of-income {
@@ -154,7 +165,7 @@ p {
 
 }
 
-a {
+label {
    font-size: 12px;
 }
 
