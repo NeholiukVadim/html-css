@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar-article {
-   padding: 0px 12px 0px 10px;
+   padding: 0 12px 0 10px;
    box-sizing: border-box;
 }
 
@@ -34,7 +34,7 @@ body {
 .article {
    font-size: 24px;
    font-weight: bold;
-   margin: 10px 0px 10px 0px;
+   margin: 10px 0 10px 0;
 }
 
 .sub-article {
