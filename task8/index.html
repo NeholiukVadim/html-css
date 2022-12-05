@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title> task-1.7 </title>
+   <title> task-1.8 </title>
    <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,8 +18,6 @@
             <div class="header-nav">
                <a class="header-link" href="#home">Home</a>
                <a class="header-link" href="#about">About</a>
-               <a class="header-link" href="#reveiws">Reveiws</a>
-               <a class="header-link" href="#download">Download</a>
                <a class="header-link" href="#contact_us">Contact Us</a>
             </div>
          </header>
@@ -31,14 +29,16 @@
                   praesentium obcaecati quas a, inventore laudantium! Ipsam non excepturi, facilis adipisci totam
                   veritatis?</h2>
                <div class="app-market-links-conteiner">
-                  <a href="https://play.google.com/store/apps">
-                     <img class="android"
-                        src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' />
-                  </a>
-                  <a href="https://www.apple.com/app-store/developing-for-the-app-store/">
-                     <img class="apple"
-                        src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9" />
-                  </a>
+                  <div class="presentation-link">
+                     <a href="https://play.google.com/store/apps">
+                        <img class="presentation-android" src='photos/google_blue.png' />
+                     </a>
+                  </div>
+                  <div class="presentation-link">
+                     <a href="https://www.apple.com/app-store/developing-for-the-app-store/">
+                        <img class="presentation-apple" src="photos/apple_blue.png" />
+                     </a>
+                  </div>
                </div>
             </div>
             <div class="presentation-page-image-conteiner">
@@ -108,28 +108,97 @@
       </div>
       <div class="review-conteiner">
          <div class="review-conteiner-article">
-            <h2 class="review-article" id="reveiws">What our client say</h2>
+            <h2 class="review-article">What our client say</h2>
          </div>
          <div class="review-block">
-            <div class="review-block-photo">
-               <img src="photos/client.png" class="review-photo">
-            </div>
-            <div class="review-block-comment">
-               <img src="photos/qoutes.png" class="comment-photo">
-               <p class="comment-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quisquam ab ut
-                  tenetur, iusto ratione accusantium iure aspernatur itaque earum eos voluptas eaque, reiciendis id
-                  numquam praesentium cupiditate. Pariatur, ad?</p>
-               <h2 class="comment-author">Angel Paulina</h2>
-               <div class="comment-button-block">
-                  <div class="comment-button left-button">
-                     <div class="left-arrow"></div>
+            <ol class="carousel">
+               <li id="carousel-slide1" class="carousel-slide">
+                  <div class="carousel-snapper">
+                     <div class="review-block-photo">
+                        <img src="photos/client.png" class="review-photo">
+                     </div>
+                     <div class="review-block-comment">
+                        <img src="photos/qoutes.png" class="comment-photo">
+                        <p class="comment-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quisquam
+                           ab
+                           ut
+                           tenetur, iusto ratione accusantium iure aspernatur itaque earum eos voluptas eaque,
+                           reiciendis
+                           id
+                           numquam praesentium cupiditate. Pariatur, ad?</p>
+                        <h2 class="comment-author">Angel Paulina</h2>
+                        <div class="comment-button-block">
+                           <div class="comment-button left-button">
+                              <a href="#carousel-slide3" class="carousel-next">Go to previous slide</a>
+                              <div class="left-arrow"></div>
+                           </div>
+                           <div class="comment-button right-button">
+                              <a href="#carousel-slide2" class="carousel-next">Go to next slide</a>
+                              <div class="right-arrow"></div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="comment-button right-button">
-                     <div class="right-arrow"></div>
+               </li>
+               <li id="carousel-slide2" class="carousel-slide">
+                  <div class="carousel-snapper">
+                     <div class="review-block-photo">
+                        <img src="photos/customer1.png" class="review-photo">
+                     </div>
+                     <div class="review-block-comment">
+                        <img src="photos/qoutes.png" class="comment-photo">
+                        <p class="comment-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quisquam
+                           ab
+                           ut
+                           tenetur, iusto ratione accusantium iure aspernatur itaque earum eos voluptas eaque,
+                           reiciendis
+                           id
+                           numquam praesentium cupiditate. Pariatur, ad?</p>
+                        <h2 class="comment-author">Viktoria Osipenko</h2>
+                        <div class="comment-button-block">
+                           <div class="comment-button left-button">
+                              <a href="#carousel-slide1" class="carousel-next">Go to previous slide</a>
+                              <div class="left-arrow"></div>
+                           </div>
+                           <div class="comment-button right-button">
+                              <a href="#carousel-slide3" class="carousel-next">Go to next slide</a>
+                              <div class="right-arrow"></div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-               </div>
-            </div>
+               </li>
+               <li id="carousel-slide3" class="carousel-slide">
+                  <div class="carousel-snapper">
+                     <div class="review-block-photo">
+                        <img src="photos/customer2.png" class="review-photo">
+                     </div>
+                     <div class="review-block-comment">
+                        <img src="photos/qoutes.png" class="comment-photo">
+                        <p class="comment-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quisquam
+                           ab
+                           ut
+                           tenetur, iusto ratione accusantium iure aspernatur itaque earum eos voluptas eaque,
+                           reiciendis
+                           id
+                           numquam praesentium cupiditate. Pariatur, ad?</p>
+                        <h2 class="comment-author">Sergei Ivanov</h2>
+                        <div class="comment-button-block">
+                           <div class="comment-button left-button">
+                              <a href="#carousel-slide2" class="carousel-next">Go to previous slide</a>
+                              <div class="left-arrow"></div>
+                           </div>
+                           <div class="comment-button right-button">
+                              <a href="#carousel-slide1" class="carousel-next">Go to next slide</a>
+                              <div class="right-arrow"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ol>
          </div>
+      </div>
       </div>
       <div class="download-conteiner">
          <div class="download-page">
@@ -139,23 +208,25 @@
                <div class="download-page-image3"></div>
             </div>
             <div class="download-page-content">
-               <h2 class="download-page-article" id="download">Download app to enjoy more</h2>
+               <h2 class="download-page-article">Download app to enjoy more</h2>
                <h2 class="download-page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
                   praesentium obcaecati quas a, inventore laudantium! Ipsam non excepturi, facilis adipisci totam
                   veritatis?</h2>
                <div class="app-market-links-conteiner download">
                   <a href="https://play.google.com/store/apps">
-                     <img class="android"
-                        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
+                     <img class="download-android" src="photos/google_black.png" />
                   </a>
                   <a href="https://www.apple.com/app-store/developing-for-the-app-store/">
-                     <img class="apple"
-                        src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9" />
+                     <img class="download-apple" src="photos/apple_black.png" />
                   </a>
                </div>
             </div>
          </div>
       </div>
+      <div class="background background7"><img src="photos/background1.png"></div>
+      <div class="background background6"><img src="photos/background2.png"></div>
+      <div class="background background5"><img src="photos/background1.png"></div>
+      <div class="background background4"><img src="photos/background2.png"></div>
    </main>
    <footer>
       <div class="footer-conteiner">
@@ -194,10 +265,10 @@
          </div>
          <div class="footer-social-media">
             <h2 class="copyright-text">Copyright © 2020. All rights reserved.</h2>
-            <img class="social-media-photo" src="photos/youtube.png">
-            <img class="social-media-photo" src="photos/twitter.png">
-            <img class="social-media-photo" src="photos/instagram.png">
-            <img class="social-media-photo" src="photos/facebook.png">
+            <img class="social-media-photo" src="photos/Youtube.svg">
+            <img class="social-media-photo" src="photos/Instagram.svg">
+            <img class="social-media-photo" src="photos/Facebook.svg">
+            <img class="social-media-photo" src="photos/Twitter.svg">
          </div>
       </div>
    </footer>
