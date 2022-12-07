@@ -48,20 +48,13 @@
 
 * {
    font-family: Objective;
-}
-
-body {
-   margin: 0;
-}
-
-body {
-   margin: 0;
-}
-   
-* {
    box-sizing: border-box;
    scrollbar-color: transparent transparent;
    scrollbar-width: 0px;
+}
+
+body {
+   margin: 0;
 }
 
 a {
@@ -79,7 +72,6 @@ header {
    width: 100%;
    max-width: 900px;
    margin: 0 auto;
-   box-sizing: border-box;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -126,13 +118,11 @@ main {
    font-size: 18px;
    line-height: 19px;
    width: 100%;
-   box-sizing: border-box;
    display: flex;
    justify-content: space-around;
 }
 
 .header-link {
-   text-decoration: none;
    color: inherit;
 }
 
@@ -151,7 +141,6 @@ main {
    font-weight: 500;
    line-height: 70px;
    letter-spacing: 0.02em;
-   text-align: left;
    color: #260041;   
 }
 
@@ -159,8 +148,6 @@ main {
    font-size: 20px;
    font-weight: 400;
    line-height: 36px;
-   letter-spacing: 0em;
-   text-align: left;
    margin-bottom: 70px;
    color: #260041;
 }
@@ -175,12 +162,11 @@ main {
 
 .presentation-page-image1 {
    background-image: url(photos/phone.png);
-   background-repeat: no-repeat;
    background-size: cover;
    position: absolute;
    width: 280px;
    height: 534px;
-   right: 0%;
+   right: 0;
    z-index: 1;
 }
 
@@ -191,21 +177,6 @@ main {
    width: 240px;
    height: 458.39px;
    z-index: 2;
-}
-
-.app-market-links-conteiner {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: start;
-}
-
-.download {
-   justify-content: center;
-}
-
-.download-android {
-   margin-right: 20px;
 }
 
 .presentation-link {
@@ -219,125 +190,20 @@ main {
    justify-content: center;
 }
 
-.footer-conteiner {
-   height: 350px;
-   background-color: #4A99D3;
-}
-
-.footer-links {
-   height: 300px;
+.app-market-links-conteiner {
    width: 100%;
-   box-sizing: border-box;
-   padding: 15px 5vw 15px 5vw;
    display: flex;
-   justify-content: space-between;
-   border-bottom: 2px solid;
-   border-color: white;
+   justify-content: start;
 }
 
-.footer-logo {
-   font-size: 38px;
-   font-weight: 600;
-   color: white;
-}
-
-li {
-   color: white;
-   list-style: none;
-}
-
-.list-article {
-   margin: 0 0 40px 0;
-   font-size: 18px;
-   line-height: 40px;
-   width: fit-content;
-   font-weight: 400;
-   border-bottom: solid 2px white;
-}
-
-.list-item {
-   margin-bottom: 20px;
-   font-size: 14px;
-   font-weight: 300;
-}
-
-.subscribe-block {
-   width: 30%;
-   margin-left: 15px;
-}
-
-.subscribe-text {
-   font-size: 18px;
-   font-weight: 400;
-   color: white;
-}
-
-.subscribe-button {
-   width: 30%;
-   height: 45px;
-   background: #FFFFFF;
-   color: #4A99D3;
-   font-size: 14px;
-   font-weight: 700;
-   border-radius: 3px;
-   border: none;
-}
-
-.subscribe-email {
-   width: 60%;
-   height: 45px;
-   box-sizing: border-box;
-   padding-left: 8px;
-   background: #FFFFFF;
-   border-radius: 3px;
-   margin-right: 1px;
-   border: none;
-}
-
-.footer-social-media {
-   height: 50px;
-   box-sizing: border-box;
-   padding: 0 10vw 0 10vw;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.useful-links {
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   max-width: 500px;
-   box-sizing: border-box;
-   padding: 0 30px;
-}
-
-.list {
-   padding: 0;
-}
-
-.copyright-text {
-   font-size: 10px;
-   margin-right: 50%;
-   color: white;
-}
-
-.social-media-photo {
-   height: 16px;
-   margin-right: 12px;
-}
-
-.media-links {
-   position: absolute;
-   width: fit-content;
-   right: 10vw;
+.download-android {
+   margin-right: 20px;
 }
 
 .about-page-conteiner {
-   height: 1650px;
+   height: 1550px;
    width: 100%;
-   box-sizing: border-box;
-   padding-top: 100px;
+   margin-top: 100px;
 }
 
 .about-information-conteiner {
@@ -420,6 +286,7 @@ li {
    letter-spacing: 0.05em;
    top: 60px;
    text-decoration: none;
+   color: #4A99D3;
 }
 
 .about-block-link::after {
@@ -434,7 +301,7 @@ li {
 .explain-conteiner {
    height: 400px;
    width: 100%;
-   background-color: rgba(74, 153, 211, 0.1);;
+   background-color: rgba(74, 153, 211, 0.1);
 }
 
 .explain-conteiner-article {
@@ -454,19 +321,16 @@ li {
 }
 
 .explain-block-content {
-   height: 250px;
    width: 100%;
    max-width: 950px;
    margin: 0 auto;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   box-sizing: border-box;
 }
 
 .explain-block {
    width: 20vw;
-   height: 300px;
    display: flex;
    align-items: center;
    text-align: center;
@@ -495,11 +359,11 @@ li {
    max-width: 950px;
    margin: 0 auto;
    display: flex;
+   align-items: center;
    justify-content: center;
 }
 
 .review-article {
-   margin: auto;
    font-weight: 700;
    font-size: 26px;
 }
@@ -626,7 +490,7 @@ li {
 }
 
 .download-conteiner {
-   height: 750px;
+   height: 650px;
 }
 
 .download-page {
@@ -677,7 +541,6 @@ li {
 
 .download-page-image1 {
    background-image: url(photos/phone.png);
-   background-repeat: no-repeat;
    background-size: cover;
    position: absolute;
    width: 180px;
@@ -699,7 +562,6 @@ li {
 
 .download-page-image3 {
    background-image: url(photos/phone.png);
-   background-repeat: no-repeat;
    background-size: cover;
    position: absolute;
    width: 180px;
@@ -709,10 +571,119 @@ li {
    z-index: 1;
 }
 
+
+.footer-conteiner {
+   height: 350px;
+   background-color: #4A99D3;
+   color: white;
+}
+
+.footer-links {
+   height: 300px;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 15px 5vw 15px 5vw;
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid;
+   border-color: white;
+}
+
+.footer-logo {
+   font-size: 38px;
+   font-weight: 600;
+}
+
+li {
+   list-style: none;
+}
+
+.list-article {
+   margin: 0 0 40px 0;
+   font-size: 18px;
+   line-height: 40px;
+   width: fit-content;
+   font-weight: 400;
+   border-bottom: solid 2px white;
+}
+
+.list-item {
+   margin-bottom: 20px;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+.subscribe-block {
+   width: 30%;
+   margin-left: 15px;
+}
+
+.subscribe-text {
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.subscribe-button {
+   width: 30%;
+   height: 45px;
+   background: #FFFFFF;
+   color: #4A99D3;
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 3px;
+   border: none;
+}
+
+.subscribe-email {
+   width: 60%;
+   height: 45px;
+   box-sizing: border-box;
+   padding-left: 8px;
+   background: #FFFFFF;
+   border-radius: 3px;
+   margin-right: 1px;
+   border: none;
+}
+
+.footer-social-media {
+   height: 50px;
+   box-sizing: border-box;
+   padding: 0 5vw 0 5vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.useful-links {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 500px;
+   box-sizing: border-box;
+   padding: 0 30px;
+}
+
+.list {
+   padding: 0;
+}
+
+.copyright-text {
+   font-size: 10px;
+}
+
+.social-media-photo {
+   height: 16px;
+   margin-right: 12px;
+}
+
+.media-links {
+   position: absolute;
+   width: fit-content;
+   right: 5vw;
+}
+
 .background {
    position: absolute;
-   height: 200px;
-   width: 190px;
 }
 
 .background7 {
@@ -772,59 +743,43 @@ li {
       padding-left: 0;
    }
 
-   .presentation-page-conteiner {
-      height: 820px;
-   }
-
    .background0, .background1, .background2 {
       display: none;
    }
 
    .background4 {
-      top: 2270px;
+      top: 2220px;
    }
 
    .background5 {
-      top: 820px;
+      top: 770px;
    }
 
-   .download-apple {
+   .download-apple, .download-android {
       width: 120px;
       height: 40px;
    }
 
-   .download-android {
-      width: 120px;
-      height: 40px;
+   .presentation-page-conteiner, .about-page-conteiner, .explain-block-content, .download-conteiner {
+      box-sizing: border-box;
+      padding-left: 2%;
+      padding-right: 2%;
    }
-
 }
 
 @media (max-width: 850px) {
 
-   .subscribe-button {
+   .subscribe-button, .subscribe-email {
       font-size: 10px;
-   }
-
-   .subscribe-email {
-      font-size: 10px;
-   }
-
-   .presentation-page-image1 {
-      right: 0;
    }
 
    .header-logo {
-      margin: 0 10vw 0 0;
+      margin: 0 10% 0 0;
    }
 
    .presentation-page-article {
       font-size: 36px;
       line-height: 45px;
-   }
-
-   .footer-links {
-      padding: 15px 5vw 15px 5vw;
    }
 
    .review-photo {
@@ -852,10 +807,6 @@ li {
       font-size: 14px;
    }
 
-   .copyright-text {
-      margin-right: 40%;
-   }
-
    .download-page-image1{
       right: 50%;
    }
@@ -868,22 +819,25 @@ li {
       right: 0;
    }
 
-   .list-article {
+   .list-article, .subscribe-text {
       font-size: 16px;
    }
 
-   .presentation-page-conteiner, .about-page-conteiner, .explain-block-content, .download-conteiner {
-      box-sizing: border-box;
-      padding-left: 2%;
-      padding-right: 2%;
+   .background3 {
+      display: none;
    }
 
-   .subscribe-text {
-      font-size: 14px;
+   .subscribe-email {
+      width: 100%;
+      margin-bottom: 15px;
+   }
+
+   .subscribe-button {
+      width: 100%;
    }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
    header {
       height: 100px;
       padding: 0;
@@ -894,12 +848,7 @@ li {
    .header-logo {
       width: 100%;
       max-width: fit-content;
-      box-sizing: border-box;
-      margin: 0 auto;
-   }
-
-   .logo-text {
-      margin: 0 0 10px 0;
+      margin: 0 auto 10px auto;
    }
 
    .presentation-page-conteiner {
@@ -908,7 +857,6 @@ li {
 
    .presentation-page {
       flex-direction: column;
-      margin: 0;
       height: 1200px;
    }
 
@@ -928,14 +876,14 @@ li {
    }
 
    .about-page-conteiner {
-      height: 2250px;
+      height: 2200px;
    }
 
    .about-information-conteiner {
       display: flex;
       flex-direction: column;
       position: unset;
-      padding: 50px 10vw 0 10vw;
+      padding: 0 10vw;
       height: 2150px;
    }
 
@@ -963,15 +911,11 @@ li {
    }
 
    .review-conteiner {
-      display: flex;
-      flex-direction: column;
       height: 1200px;
    }
 
    .review-block {
       height: 1000px;
-      display: flex;
-      flex-direction: column;
    }
 
    .review-block-photo {
@@ -994,9 +938,13 @@ li {
    .download-page {
       height: 850px;
       flex-direction: column-reverse;
-      margin: 0 0 50px 0;
       box-sizing: border-box;
       padding: 0 10vw 0 10vw;
+   }
+
+   .app-market-links-conteiner {
+      display: flex;
+      justify-content: space-around;
    }
 
    .download-page-image-conteiner {
@@ -1022,12 +970,11 @@ li {
    }
 
    .footer-conteiner {
-      height: 560px;
+      height: 600px;
    }
 
    .footer-links {
-      padding: 15px 2vw 15px 2vw;
-      flex-direction: column;
+      height: 570px;
    }
 
    .footer-social-media {
@@ -1035,8 +982,9 @@ li {
       padding: 0 5% 0 5%;
    }
 
-   .media-links {
-      right: 5%;
+   .footer-links {
+      padding: 15px 2vw 15px 2vw;
+      flex-direction: column;
    }
 
    .footer-item {
@@ -1059,20 +1007,8 @@ li {
       margin: 0;
    }
 
-   .footer-links {
-      height: 530px;
-   }
-
    .list-article {
       margin: 0 auto 40px auto;
-   }
-
-   .copyright-text {
-      margin-right: 10%;
-   }
-
-   .header-nav {
-      padding-right: 0;
    }
 
    .carousel {
@@ -1086,9 +1022,5 @@ li {
 
    .background4, .background5 {
       display: none;
-   }
-
-   .background3 {
-      top: 4700px;
    }
 }
